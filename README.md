@@ -17,9 +17,14 @@ Fork and clone this repository, then
 
 Follow the prompts below and complete each question.  You may use any resource, other than someone else in the classroom, to help you complete the solo assessment.
 
-- Question 1. Create two models (and migrations):
+//- Question 1. Create two models (and migrations):
   +   `House` has the following properties:, name (string), motto (string), and sigil (string).
-  +   `Person` has a name (string), title (string), quote (string), image (string), and age (integer).
+
+create table House (id serial primary key, name text, motto text, sigil text);
+
+  //+   `Person` has a name (string), title (string), quote (string), image (string), and age (integer).
+
+  create table Person (id serial primary key, name text, title text, quote text);
 
 - Question 2. Use ActiveRecord to save the data from `westeros/houses.csv` in `House` objects and the data from `westeros/people.csv` in `Person` objects.
   + Save your code in `scripts/save.rb`.
@@ -27,11 +32,17 @@ Follow the prompts below and complete each question.  You may use any resource, 
 - Question 3. Use ActiveRecord to retrieve all of the people greater than a certain age *or* having a specific title.
   + Save your code in `scripts/find.rb`.
 
+  //done
+
 - Question 4. Change the motto of one of your houses. Look it up by its name.
   + Save your code in `scripts/update.rb`.
 
+  //done
+
 - Question 5. Kill off, er, I mean delete one of the people. Look them up by their title.
   + Save your code in `scripts/delete.rb`
+
+  //done
 
 
 You can test your work with `rails runner`.  Use `p` in your scripts to output any results.
