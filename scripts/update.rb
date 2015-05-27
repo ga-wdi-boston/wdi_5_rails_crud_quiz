@@ -1,0 +1,1 @@
+martell = house.motto('hello')
