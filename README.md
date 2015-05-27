@@ -22,7 +22,7 @@ Follow the prompts below and complete each question.  You may use any resource, 
   +   `Person` has a name (string), title (string), quote (string), image (string), and age (integer).
 
 - Question 2. Use ActiveRecord to save the data from `westeros/houses.csv` in `House` objects and the data from `westeros/people.csv` in `Person` objects.
-  + Save your code in `scripts/save.rb`.
+  + Save your code in `scripts/save.rb`. ????????????????????????
 
 - Question 3. Use ActiveRecord to retrieve all of the people greater than a certain age *or* having a specific title.
   + Save your code in `scripts/find.rb`.
