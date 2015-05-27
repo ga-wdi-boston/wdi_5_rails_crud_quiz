@@ -1,6 +1,6 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Quiz:  An introduction to ActiveRecord
+# Solo Assessment:  An introduction to ActiveRecord
 
 You have 30 minutes.
 
@@ -8,14 +8,14 @@ You have 30 minutes.
 
 Fork and clone this repository, then
 
-```bash
- $ cd wdi_5_rails_crud_quiz
+```bashs
+ $ cd wdi_5_rails_crud_solo_assessment
  $ subl .
- $ cd crud_quiz
+ $ cd crud_solo_assessment
  $ rake db:create
 ```
 
-Follow the prompts below and complete each question.  You may use any resource, other than someone else in the classroom, to help you complete the quiz.
+Follow the prompts below and complete each question.  You may use any resource, other than someone else in the classroom, to help you complete the solo assessment.
 
 - Question 1. Create two models (and migrations):
   +   `House` has the following properties:, name (string), motto (string), and sigil (string).
